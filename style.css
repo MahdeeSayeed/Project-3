@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Story+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+                                             /* Nav part starts */
+
+
+.main_menu{
+    padding-top: 26px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #EAE8F3;
+
+}
+
+.main_menu ul li{
+   gap: 77px;
+
+}
+.main_menu ul li a{
+     padding: 0 !important;
+     font-size: 14px;
+     font-weight: 400;
+     font-family: var(--Ubuntu);
+     color: var(--text_color)!important;
+
+
+}
+
+.menu_button{
+      display: flex;
+      gap: 25px;
+}
+
+
+.menu_button a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    background: #42454A!important;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    border-radius: 4px;
+    transition:  all-linear 4s;
+    text-decoration: none;
+}
+
+.menu_button a:hover{
+    background: #FFFFFF!important;
+    color: #42454A; 
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.nav-item {
+    display: flex;
+}
+                                                      /* fonts */
+
+:root{
+    --text_color: #42454A;
+    --Ubuntu: Ubuntu;
+  
+
+}
+
+                                             /* Nav part */
+
+/* Banner part starts*/
+
+#banner {
+
+    padding-top: 85px;
+    position: relative;
+}
+.banner_text h1{
+    font-size: 90px;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+    color: var(--text_color);
+}
+.text-animate {
+  color: #dbd56e;
+  background: var(--text_color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 603px;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+.banner_line{
+    width: 335px;
+    height: 4px;
+    background: var(--text_color);
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+
+.banner_text p{
+    width: 353px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: var(--text_color);
+    letter-spacing: 1%;
+    padding-top: 50px;
+}
+
+
+
+.banner_now {
+    margin-top: 135px;
+    display: flex;
+    gap: 50px;
+}
+
+.go-down-btn {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+
+  svg {
+    position: relative;
+    z-index: -1;
+    display: block;
+  }
+
+  text {
+    font-size: 11px;
+    transform-origin: center;
+  }
+}
+
+
+@keyframes rotate-btn{
+  to{ transform: rotate(360deg); }
+}
+.go-down-btn text{
+  animation: rotate-btn 10s linear infinite;
+}
+
+.banner_image{
+    width: 856px;
+    position: absolute;
+    top: 31px;
+    right: 0;
+}
+
+                                          /* Banner part ends */                       
+                                      /* Counter part starts */
+.single_counter{
+    width: 174px;
+    padding: 28px 36px 32px 37px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;;
+
+}
+.single_counter P{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: var(--text_color);
+}
+.single_counter p span{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--Ubuntu)
+    ;
+}
+
+#counter{
+    margin-top: 340px;
+}
+
+.counter_row{
+  width: 174.46px;
+  padding: 28.12px 46.4px;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* gap: 53px; */
+}
+.counter{
+  width: 101.04px;
+  height: 40.07px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family:  var(--Ubuntu);
+}
+.counter_row {
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+     gap: 53px;
+}
+
+
+.single_counter{
+   text-align: center;
+}
+                                       /* Counter part ends */
+                                       
+                                       /* Product part starts */
+.product_text{
+  margin-top: 50px;
+}
+
+.product_text h1{
+  font-size: 50px;
+  font-weight:  700;
+  font-family: var(--Ubuntu); 
+  text-align: center;
+}
+
+.product_text p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Ubuntu);
+  margin-top: 20px;  
+  text-align: center;
+}
+.product_image{
+  display: flex;
+}
+.product_image img{
+  width: 748px;
+  height: 706px;
+}
+
+.product_feature img {
+    margin-top: 125px;
+    width: 464px;
+    height: 464px;
+}
+                                         /* Product part ends*/
+
+                                          /* Motor part starts */
+.motor_text h1{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--Ubuntu);
+  text-align: center;
+}
+
+.motor_text p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Ubuntu);
+  text-align: center;
+  margin-top: 10px;
+}
+                                          /* Motor part ends */
+                                        /* Efficinecy part start */
+.motor_img img{
+  width: 1,335px;
+}
+
+.common_head h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-weight: var(--Ubuntu);
+    text-align: center;
+
+}
+
+.common_head p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Ubuntu);
+  margin-top: 34px;
+  text-align: center;
+}
+
+
+
+#accesories{
+  margin-top: 292px;
+  position: relative;
+}
+
+.accesories_list img{
+      width: 49px;
+}
+.accesories_list{
+  display: flex;
+  gap: 18px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  align-items: center;
+}
+
+
+#accesories.listcommon h2{
+  text-align: left;
+}
+
+#accesories.listcommon p{
+  text-align: left;
+  margin-top: 0;
+
+}
+
+.accesories_row{
+  margin-top: 112px;
+}
+
+.list.common2{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+.accesories_image{
+  position: absolute;
+  left: 0;
+  bottom: 17%;
+}
+
+.common_bottom{
+  width: 570px;
+  height: 94px;
+  font-size: 30px;
+  font-weight:  700;
+  font-family: var(--Ubuntu);
+  color: var(--text_color);
+  border: 2px solid var(--text_color);
+  text-decoration: none;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.common_button-col{
+  text-align: center;
+  margin-top: 94px;
+}
+
+/* gallery part starts */
+
+
+.gallery-text {
+    margin-top: 89px;
+    text-align: center;
+}
+ .gallery-text h2{
+  
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--Ubuntu);
+  text-align: center;
+}
+.gallery-text h2{
+     text-align:
+
+}
+
+.gallery-text p{
+  margin-top: 1px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Ubuntu);
+  text-align: center;
+} 
+
+
+
+
+
+/* Gallery part ends */
+
+/* this is where color part css starts */
+
+#colors{
+  margin-top: 152px;
+}
+
+.slidernavbutton{
+   width:246px;
+   height:264px;
+   border-radius: 10px;
+   border: none;
+}
+
+.main_slider_for{
+     width: 1340px;
+     height: 767px;
+  /* position: relative; */
+}
+.slider-nav{
+
+}
+
+.my-slider-nav{
+  /* position: absolute; */
+  width: 100%;
+
+}
+
+
+
+/* This is where color part css ends */
+
+/* -------------------------his is where testimonial css start------------------------------ */
+#testimonial{
+  margin-top: 469px;
+  background:  #FAFAFA;
+  padding-top: 78px;
+  padding-bottom: 82px;
+}
+
+#testemonial.common_head p{
+  margin-top: 26px;
+  margin-bottom: 61px;
+}
+.single_testimonial{
+   width: 360px!important;
+   padding: 52px 22px 51px 34px;
+   border: 1px solid #D8D8D8;
+   transition: all-linear .3s;
+}
+.single_testimonial:hover{
+   border: 1px solid #FAFAFA;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   
+}
+.single_testimonial ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FE8B75;
+  list-style: none;
+}
+
+.review_parent{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.review_image{
+     width: 48px;
+     height: 48px;
+     border-radius: 50%;
+     overflow: hidden;
+}
+
+.review_text h2{
+     font-size: 16px!important;
+     font-weight: 500!important;
+     font-family: var(--Ubuntu)!important;
+     color: var(--text_color);
+}
+.review_text p{
+     font-size: 14px;
+     font-weight: 400!important;
+     font-family: var(--Ubuntu)!important;
+     color: var(--text_color);
+}
+/* ---------------------    This is where testimonial css end------------------------------- */
+
+/* This is where Newsletter css starts */
+
+.common_head{
+  margin-top: 20px;
+}
+
+.common_head h2{
+  font-size:  50px;
+  font-weight: 700;
+  font-family: var(--Ubuntu);
+  margin-bottom: 5px;
+}
+.common_head p{
+  font-size:  20px;
+  font-weight: 400;
+  font-family: var(--Ubuntu);
+
+}
+.newsletter_input{
+   text-align: center;
+}
+.newsletter_place{
+   width: 400px;
+   height: 81px;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: var(--Ubuntu);
+   color: #42454A;
+}
+
+.newsletter-button{
+  width: 196px;
+  height: 81px;
+  background: #42454A;
+  border-radius: 10px;
+  color: #FBFBFB;
+}
+
+/* This is where Newsletter css ends */
+
+/* This is where footer css starts */
+#footer{
+  width: 1440px;
+  height: 551px;
+  background: #42454A;
+  margin-top: 80px;
+}
+
+
+.common_header {
+    width: 729px;
+    height: 551px;
+    display: flex;
+    gap: 106px;
+}
+
+.footer_menu{
+  padding-top: 75px;  
+  color: #FBFBFB;
+  flex-direction: column;
+  display: flex;
+  
+
+
+   
+}
+.footer_menu p{
+    padding-top: 20px;
+    
+}
+
+.footer_menu-1{
+  padding-top: 75px;  
+  flex-direction: column;
+  display: flex;
+  color: #FBFBFB;
+}
+.footer_menu-1 p{
+    padding-top: 20px;
+}
+
+
+.footer_menu-2{
+  padding-top: 75px;  
+  flex-direction: column;
+  display: flex;
+  color: #FBFBFB;
+}
+
+.footer_menu-2 p{
+  padding-top: 20px;
+}
+
+.footer_menu-icons {
+      
+     display: flex;
+}
+
+
+.fa-brands.fa-facebook{
+      width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      background: #FAFAFC;
+      color: var(--text_color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    
+}
+
+.fa-brands.fa-twitter{
+      width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      background: #FAFAFC;
+      color: var(--text_color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       margin-right: 10px;
+      
+
+}
+
+.fa-brands.fa-instagram{
+     width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      background: #FAFAFC;
+      color: var(--text_color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+/* This is where footer css end */
